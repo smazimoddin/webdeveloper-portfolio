@@ -1,11 +1,13 @@
 /* common shared styles */
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
-.text-primary{
-    color:#FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
@@ -14,69 +16,103 @@ body{
     padding: 18px 36px;
     border: 0;
 }
+
+.section-title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* Nav related styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.nav-title{
-color: #181818;
-font-family: "Open Sans";
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.nav-title {
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
 /* header related style */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
 }
+
+/* Main section style */
+/* About section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
