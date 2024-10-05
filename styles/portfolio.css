@@ -12,11 +12,14 @@ body{
     font-weight: 700;
     color: #ffffff;
     padding: 18px 36px;
+    border: 0;
 }
 /* Nav related styles */
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
 color: #181818;
@@ -28,6 +31,7 @@ line-height: normal;
 }
 nav > ul {
     display: flex;
+    align-items: center;
 
 }
 nav li{
